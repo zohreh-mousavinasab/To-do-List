@@ -6,16 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
-    <p>To do List</p>
+    
     <link 
     rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css"
     integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ==" 
     crossorigin="anonymous"
-     referrerpolicy="no-referrer" />
+    referrerpolicy="no-referrer" />
     
 </head>
+
+
 <body>
-    
+    <header>
+       <h1 class="title">To do List</h1> 
+    </header>
+    <section class="container">
+    <div class="form-container">
+        <form>
+            <input type="text" class="todo-input"/>
+            <input type="submit" class="todo-button"/>
+            <i class="fas fa-plus-circle"></i>
+        <div class="select">
+            <select class="filter-todos" name="todos">
+                <option class="all">all</option>
+                <option class="completed">completed</option>
+                <option class="uncompleted">uncompleted</option>
+
+
+            </select>
+
+        </div>
+
+    </div>
+    <div class="todo-container">
+        <ul class="todolist"></ul>
+    </section>
+    </div>
 </body>
 </html>

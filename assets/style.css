@@ -1,25 +1,26 @@
 @import url("./fonts/styles/fonts");
 
 
+
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family:"iranyekan" ;
+font-family:"iranyekan";
 list-style: none;
 
 }
 
 :root {
-    --primaryColor: #6d28d9;
-    --secondaryColor: #ede9fe;
-    --mainWhite: #fff;
+    --primaryColor: #495464;
+    --secondaryColor: #e8e8e8;
+    --mainWhite: #f4f4f2;
     --mainBlack: #222;
-    --mainGrey: #7c7c7c;
+    --mainGrey: #bbbfca;
     --mainSpacing: 0.1rem;
     --mainTransition: all 0.3s linear;
     --mainRed: #db2777;
-    --bodyColor: #f6f6f6;
+    --bodyColor: #f4f4f2;
   }
   
   body {
